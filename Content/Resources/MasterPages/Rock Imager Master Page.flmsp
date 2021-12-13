@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="234" MadCap:lastWidth="1405">
+    <head>
+        <style>
+			.row {
+			width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+			margin-bottom: 0;
+			max-width: 62.5em;
+			zoom: 1;
+			}
+
+			html.left-layout #navigation {
+			left: 50px;
+			}
+
+		
+			
+			div.page-content {
+			width: 80%;
+			max-width: 1160px; 
+			margin-left: auto; margin-right: auto;
+			}
+			
+						
+			.anyofimgclass{
+			display: block;
+			max-width: 70%;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+			}
+			
+
+		</style>
+    </head>
+    <body>
+        <div class="page-content">
+            <MadCap:breadcrumbsProxy />
+            <MadCap:bodyProxy />
+            <hr />
+            <table style="width: 100%; margin-left: auto; margin-right: auto;">
+                <col style="width: 426px;" />
+                <col style="width: 973px;" />
+                <tbody>
+                    <tr>
+                        <td>
+                            <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: PreviousTopic NextTopic;" />
+                        </td>
+                        <td style="text-align: right;"><a href="http://www.formulatrix.com/" target="_blank"><img src="../Images/Formulatrix Big Logo.png" style="height: auto;width: 195px;" title="FORMULATRIX" alt="" /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top;border-left-style: solid;border-left-width: 0px;border-right-style: solid;border-right-width: 0px;border-top-style: solid;border-top-width: 0px;border-bottom-style: solid;border-bottom-width: 0px;"><span style="font-size: 8pt;">RIFTC-V40R021</span>
+                        </td>
+                        <td>
+                            <p class="FooterText" style="font-size: 8pt;">10 DeAngelo Drive
+</p>
+                            <p class="FooterText" style="font-size: 8pt;">Bedford, MA 01730</p>
+                            <p class="FooterText" style="font-size: 8pt;">USA</p>
+                            <p class="FooterText" style="font-size: 8pt;">+1-781-788-0228</p>
+                            <p class="FooterText" style="font-size: 8pt;"><a href="mailto:support@formulatrix.com?subject=Support Request" style="font-size: 9pt;">support@formulatrix.com</a>
+                            </p>
+                            <p class="FooterText" style="font-size: 8pt;"><a href="mailto:publications@formulatrix.com?subject=Rock Maker 1000 Help Feedback" style="font-size: 9pt;">publications@formulatrix.com</a>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

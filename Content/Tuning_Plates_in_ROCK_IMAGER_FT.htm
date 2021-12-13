@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html madcap:lastblockdepth="6" madcap:lastheight="3748.5" madcap:lastwidth="1142" xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head><title>Tuning Plates in ROCK IMAGER FT</title>
+<meta content="earn how to tune the drop location for a plate in ROCK IMAGER FT. You can tune the drop location when you add new plate types or if find that drop images are consistently off-centered." name="description"/>
+</head>
+<body>
+<h1>Tuning Plates in ROCK IMAGER FT<madcap:keyword term="Plate Tuning"></madcap:keyword></h1>
+<p>This topic explains how to tune the drop locations of a plate to ensure clear and precise imaging. Tuning plates involves finding the correct drop position coordinates for the four corner well locations: top-left, top-right, bottom-right, and bottom-left. You may want to tune your plates if the drop images are off-centered or if you add new plates to your system. We recommend that you read <madcap:xref href="About_Plate_Type_Calibration.htm" target="_blank">About Plate Type Calibration</madcap:xref> first before proceeding with this tutorial.</p>
+<p class="Note"><b>Important</b>: We only recommend advanced users modify these settings. If you need a new plate type added to your imager, then please contact <a href="mailto:support@formulatrix.com">support@formulatrix.com</a> for help.</p>
+<div> </div>
+<p><b>Prerequisites</b>:</p>
+<ul>
+<li>
+<p>You have <a href="../../Imaging_Plates/Tutorials/Adding_and_Removing_Plates.html" target="_blank">added the new plate type</a> in ROCK MAKER.</p>
+</li>
+<li>
+<p>You have created an experiment in ROCK MAKER. If you aren’t interested in tracking conditions with ROCK MAKER, you can create a proxy experiment.</p>
+</li>
+<li>
+<p>Your plate has a barcode label affixed to the short side of the plate opposite the A1 position.</p>
+</li>
+<li>
+<p>You have tuned the reference plate.</p>
+</li>
+</ul>
+<p> </p>
+<p><b>To tune plates in ROCK IMAGER FT</b>:</p>
+<ol>
+<li>
+<p>Turn on the ROCK IMAGER FT hardware and run the software.</p>
+</li>
+<li>
+<p><a href="../../Imaging_Plates/Tutorials/Adding_and_Removing_Plates.html" target="_blank">Add the plate to ROCK IMAGER FT</a> and move it under the imager.</p>
+</li>
+<li>
+<p>In the ROCK IMAGER FT software, go to the <b>Plate Setup</b> menu. Then, click <b>Plate Type Calibration</b>.</p>
+</li>
+<li>
+<p>From the <b>Plate Type List</b>, select the plate type that matches the one you placed under the imager.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/PlateSetupMenu/platetypelist.png" style="width: 50%;height: auto;" title="Selecting the Correct Plate Type from the Plate Type List"/>
+</p>
+<p class="imageTitle">Selecting the Correct Plate Type from the Plate Type List</p>
+</li>
+<li>
+<p>In the <b>General</b> panel, make sure the <b>Disable Well Limits</b> option is activated.</p>
+<p class="NoteCallout"><b>Note</b>: Do NOT click <b>Apply</b> at this time.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/PlateSetupMenu/disablewelllimits.png" style="width: 40%;height: auto;" title="Disabling Well Limits"/>
+</p>
+<p class="imageTitle">Disabling Well Limits</p>
+</li>
+<li>
+<p>Go to the <b>Drop Positions</b> panel and calibrate the X, Y, and Z coordinates for the four corner well locations accordingly.</p>
+<ol style="list-style-type: lower-alpha;">
+<li>
+<p>Select a drop from the <b>Drop</b> list. If your plate has multiple drops per well, make sure to select the correct drop that matches the one you are currently viewing under the live stream. You must calibrate every drop for each of the four corner wells.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/PlateSetupMenu/selectdrop.png" style="width: 40%;height: auto;" title="Selecting a Drop from the Drop List"/>
+</p>
+<p class="imageTitle">Selecting a Drop from the Drop List</p>
+</li>
+<li>
+<p>Still in the <b>Drop Positions</b> panel, expand the <b>Live Image Options</b> and activate <b>Enable Crosshair Guide</b>.</p>
+</li>
+<li>
+<p>Use the well graphic in the <b>Well Control</b> option to move to the first well location, e.g. <b>Well A1</b>. Adjust the crosshair’s position using the <b>Fine Tuning Movement</b> control pads and use the scrollbar below them to change the motor speed.</p>
+</li>
+<li>
+<p>Move the crosshair to the center of the well and use the Z axis control pads to focus the drop image.</p>
+<p class="NoteCallout"><b>Note</b>: You can also adjust the zoom if needed in the <a href="../Imager_Menu/Optics_and_Camera_Control_Panel.html" target="_blank">Optics and Camera Control</a> below the <b>Well Control</b> option.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/PlateSetupMenu/imagecenteredonA1.png" style="width: 40%;height: auto;" title="Drop A1 with the Crosshair Adjusted to the Center of the Drop"/>
+</p>
+<p class="imageTitle">Drop A1 with the Crosshair Adjusted to the Center of the Drop</p>
+</li>
+<li>
+<p>Once you get the precise X, Y, Z coordinates, copy these values to their corresponding rows in the <b>Drop Positions</b> table by clicking <b>Input</b>.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/PlateSetupMenu/copyvalues.png" style="mc-thumbnail: popup;mc-thumbnail-max-height: 80%;width: 40%;height: auto;" title="Inputting the Calibration Results to the Corresponding Rows"/>
+</p>
+<p class="imageTitle">Inputting the Calibration Results to the Corresponding Rows</p>
+</li>
+<li>
+<p>Repeat steps c - g to tune the other three corner wells of the plate, e.g. <b>A12</b>, <b>H1</b>, and <b>H12</b>.</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Verify the well positions by clicking <b>Move</b>. ROCK IMAGER FT should display the center of the drop.</p>
+</li>
+<li>
+<p>When you are done, click <b>Apply</b> to save the changes. If you are adding a new plate type to the system, follow the additional steps below.</p>
+</li>
+<li>
+<p>Go to the <a href="Defining_Default_Imaging_Settings.html" target="_blank">Default Imaging Settings</a> sub-menu and specify the optics and camera settings you want to use when the selected plate type is being imaged.</p>
+</li>
+<li>
+<p>Expand the <b>Drop Location</b> option, and select either the <b>Fixed</b> or <b>Locate Drop</b> method. The <b>Fixed</b> method should be used for drops that are centered in the well with consistent relative positions. This method will have the fastest imaging time and is recommended for routine sitting drop experiments. <b>Locate Drop</b> method should be used for soluble protein experiments and is useful for plates where the drop position is not consistent and the size of the drops is small relative to the well area.</p>
+</li>
+<li>
+<p>When done, click <b>Apply</b>.</p>
+</li>
+<li>
+<p>In the upper-right corner of the screen, click <b>More Actions</b> and select <b>Export</b>. Find and select the desired location on your computer to save the new plate settings.</p>
+</li>
+</ol>
+<p> </p>
+<hr/>
+<div> </div>
+<h3>Frequently Asked Questions</h3>
+<p style="font-style: italic;">➤ Why is the <b>Drop Positions</b> table not available when I go to the <b>Drop Positions</b> panel?</p>
+<p>Answer: Make sure you have selected a plate type from the <b>Plate Type List</b> that matches the one currently under the imager.</p>
+<p style="font-style: italic;">➤ Can I fine-tune my plate using any lightpaths?</p>
+<p>Answer: To tune your plate, you must use the Visible lightpath as this is the reference camera for other lightpaths, i.e. other lightpaths use offsets from Visible to capture images.</p>
+<p> </p>
+<h4 class="SeeAlso">related topics</h4>
+<ul>
+<li>
+<madcap:xref href="About_Plate_Type_Calibration.htm">About Plate Type Calibration</madcap:xref>
+</li>
+<li>
+<madcap:xref href="Plate_Setup_Menu.htm">Plate Setup Menu</madcap:xref>
+</li>
+<li>
+<madcap:xref href="../Imager_Menu/Optics_and_Camera_Control_Panel.htm">Optics and Camera Control Panel</madcap:xref>
+</li>
+<li>
+<madcap:xref href="../Imager_Menu/Well_Control_Panel.htm">Well Control Panel</madcap:xref>
+</li>
+</ul>
+</body>
+</html>

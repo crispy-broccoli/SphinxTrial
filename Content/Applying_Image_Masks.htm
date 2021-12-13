@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html madcap:lastblockdepth="4" madcap:lastheight="3791.5" madcap:lastwidth="2538" xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head><title>Applying Image Masks</title>
+<meta content="Learn how to use plate masks in ROCK IMAGER FT. Plate masks can help hide autofluorescence that occurs in certain plate types for more accurate autoscoring results." name="description"/>
+</head>
+<body>
+<h1>Applying Image Masks<madcap:keyword term="Image Masks"></madcap:keyword></h1>
+<p>Image masks are used to hide autofluorescence that appears around the edges of certain plate types in order to get more accurate Auto Scoring results. Auto Scoring classifies each ultraviolet image as a positive or negative hit using a proprietary algorithm that analyzes image intensity, edges, sharpness, and objects detected. By hiding irrelevant fluorescence, image masks reduce the probability of a false positive.</p>
+<p>A mask is set on a particular drop on the plate, then the mask will apply to all drop locations on the plate. Once you set an image mask on a certain plate type, the mask will also be applied to all the other experiments that use the same plate type.</p>
+<div> </div>
+<p><b style="font-size: 10pt;">Prerequisites</b>:</p>
+<ul>
+<li>
+<p>You will be imaging the plate using Ultraviolet lightpath.</p>
+</li>
+<li>
+<p>You want to improve ROCK IMAGER Processor’s Auto Scoring results.</p>
+</li>
+<li>
+<p>You are running ROCK MAKER version 2.7 or newer.</p>
+</li>
+<li>
+<p>Your plate is already inside the imager.</p>
+</li>
+<li>
+<p>You have already tuned the drop positions for the plate.</p>
+</li>
+</ul>
+<p> </p>
+<p><b style="font-size: 10pt;">To apply an image mask</b>:</p>
+<ol>
+<li>
+<p>Go to <b style="font-size: 10pt;">Plate Setup</b> and select <b style="font-size: 10pt;">Image Mask</b>.</p>
+</li>
+<li>
+<p>Select the plate type of interest from the plate list.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/imagemask/platelist.png" style="width: 35%;height: auto;" title="Selecting the Plate of Interest"/>
+</p>
+<p class="imageTitle">Selecting the Plate of Interest</p>
+</li>
+<li>
+<p>Turn the <b style="font-size: 10pt;">Live Stream</b> ON and navigate to the desired drop using the<span style="font-size: 10pt;"> </span><a href="../Imager_Menu/Well_Control_Panel.html" style="font-size: 10pt;" target="_blank">Well Control panel</a>.</p>
+</li>
+<li>
+<p>In the <b style="font-size: 10pt;">Image Mask Control</b> panel on the right side of the screen, select the shape of interest.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/imagemask/shape.png" style="width: 35%;height: auto;" title="Selecting the Shape of Interest"/>
+</p>
+<p class="imageTitle">Selecting the Shape of Interest</p>
+<p class="NoteCallout"><b style="font-size: 10pt;">Note</b>: If the image of your drop is not clear enough, use the manual imaging controls under the <b style="font-size: 10pt;">Image Mask Control</b> panel. See <a href="../Imager_Menu/Optics_and_Camera_Control_Panel.html" style="font-size: 10pt;" target="_blank">Optics and Camera Control Panel</a> for assistance.</p>
+</li>
+<li>
+<p>Set the size and position of the image mask on the image with your mouse. The irrelevant part of the plate should be outside the region you set.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/imagemask/PTETImageMask.png" style="width: 40%;height: auto;" title="Setting the Image Mask"/>
+</p>
+<p class="imageTitle">Setting the Image Mask</p>
+</li>
+<li>
+<p>Once you are satisfied with the mask, click <b style="font-size: 10pt;">Apply</b>.</p>
+</li>
+</ol>
+<p> </p>
+<hr/>
+<div> </div>
+<h3 style="color: #e88c40;">Frequently Asked Question:</h3>
+<p style="font-style: italic;">➤ Where can I view the results of Auto Scoring?</p>
+<p>Answer: The auto scores for each drop image can be viewed in ROCK MAKER and are displayed in the <b style="font-size: 10pt;">Canvas</b>. Auto Scores are represented by a green plus (positive hit) or a red minus sign (negative hit).</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/imagemask/AutoScored Image.png" style="width: 40%;height: auto;" title="Auto Scores for UV Drop Images"/>
+</p>
+<p class="imageTitle">Auto Scores for UV Drop Images</p>
+<p class="imageTitle"> </p>
+<h4 class="SeeAlso">related topics</h4>
+<ul>
+<li>
+<madcap:xref href="../Imager_Menu/Optics_and_Camera_Control_Panel.htm">Optics and Camera Control Panel</madcap:xref>
+</li>
+<li>
+<madcap:xref href="../Imager_Menu/Well_Control_Panel.htm">Well Control Panel</madcap:xref>
+</li>
+</ul>
+</body>
+</html>

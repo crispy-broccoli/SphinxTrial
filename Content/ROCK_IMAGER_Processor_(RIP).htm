@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1545.5" MadCap:lastWidth="1167">
+    <head><title>ROCK IMAGER Processor (RIP)</title>
+        <meta name="description" content="Learn about the concept of ROCK IMAGER Processor." />
+    </head>
+    <body>
+        <h1>ROCK IMAGER Processor (RIP)</h1>
+        <p>ROCK IMAGER Processor (RIP) is an image processing application that runs in the background during normal system operations. It acts as a communication hub between ROCK IMAGER FT and ROCK MAKER.</p>
+        <p>When ROCK IMAGER FT images a well, it takes multiple images of each well at various focus levels. Each image that’s taken at a specific focus level is called a “slice”. RIP searches each slice for the best focus in each part of the image and compiles the various parts of each slice into a single master image called <b>Extended Focus Image (EFI)</b>.</p>
+        <p>The EFI is the default image you see in ROCK MAKER. You can also <a href="https://help.formulatrix.com/rock-maker/3.17#Viewing_Images/Tutorials/Viewing_Focus_Level_Images.htm" target="_blank">view the individual slices in ROCK MAKER</a>.</p>
+        <p class="NoteCallout"><b>Note</b>: RIFT and RIP services start automatically with Linux so that you don't need to launch them manually. Even if you close these tabs on a browser, they will keep running in the background.</p>
+        <p style="text-align: center;">
+            <img src="../../Resources/Images/Images/RIP.png" title="ROCK IMAGER Processor" style="mc-thumbnail: popup;mc-thumbnail-max-height: 30%;width: 80%;height: auto;" />
+        </p>
+        <p class="imageTitle">ROCK&#160;IMAGER&#160;Processor</p>
+        <p>If the <b>Processing</b> button is turned ON, the ROCK IMAGER Processor will process drop images from the current imaging task and deliver those images to ROCK MAKER. If it’s turned OFF, all the processing image threads and the plate information will be empty, as shown below.</p>
+        <p class="NoteCallout"><b>Note</b>: It’s recommended that the <b>Processin</b>g button is always turned ON to ensure ROCK MAKER receives newly captured images from ROCK IMAGER FT.</p>
+        <p style="text-align: center;">
+            <img src="../../Resources/Images/Images/RIPnoprocess.png" title="ROCK IMAGER Processor Not Processing Any Images" style="mc-thumbnail: popup;mc-thumbnail-max-height: 30%;width: 80%;height: auto;" />
+        </p>
+        <p class="imageTitle">ROCK IMAGER Processor Not Processing Any Images</p>
+        <p>The <b>Display</b> button provides two options: <b>Display Images</b> and <b>Display Unprocessed Images Count</b>.</p>
+        <ul>
+            <li>
+                <p>Selecting <b>Display</b> Images will show the currently processed image in the square box next to the plate information. By default, this option is deselected as it might slow down RIP performance.</p>
+            </li>
+            <li>
+                <p>Selecting <b>Display Unprocessed Images Count</b> will show the number of images that have not been processed by RIP in the lower-left corner of the screen. In this case, click <b>Retry Failed Images</b> to resolve. If the problem persists, make sure ROCK MAKER Server is not disconnected. For assistance, contact <a href="mailto:support@formulatrix.com">support@formulatrix.com</a>.</p>
+            </li>
+        </ul>
+        <p style="text-align: center;">
+            <img src="../../Resources/Images/Images/RIPunprocessedimagecount.png" title="Unprocessed Image Count" style="width: 45%;height: auto;" />
+        </p>
+        <p class="imageTitle">Unprocessed Image Count</p>
+        <p class="imageTitle">&#160;</p>
+        <h4 class="SeeAlso">related topics</h4>
+        <ul>
+            <li>
+                <MadCap:xref href="../../RIFT_Software_Overview/Software_Overview.htm" target="_self">Software Overview</MadCap:xref>
+            </li>
+        </ul>
+    </body>
+</html>

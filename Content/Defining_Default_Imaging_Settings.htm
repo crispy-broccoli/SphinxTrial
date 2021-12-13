@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="14" MadCap:lastHeight="7365.5" MadCap:lastWidth="1038">
+    <head><title>Defining Default Imaging Settings</title>
+        <link href="../../Resources/TableStyles/Rows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <meta name="description" content="Learn how to define imaging settings in ROCK IMAGER FT for each plate type you use for your experiments." />
+    </head>
+    <body>
+        <h1>Defining Default Imaging Settings<MadCap:keyword term="Default Imaging Settings" /></h1>
+        <p>The <b>Default Imaging Settings</b> sub-menu is where you define the default optics and camera settings to use when imaging a certain plate type.</p>
+        <p>Upon installation, the FORMULATRIX support team will configure the properties for optimal image quality and performance. If you need to add a new plate type to your imager, then please contact <a href="mailto:support@formulatrix.com">support@formulatrix.com</a> for help. We recommend that only advanced users modify these settings. The information below is for lab managers so that they may adjust settings as they see fit.</p>
+        <p style="text-align: center;">
+            <img src="../../Resources/Images/Images/PlateSetupMenu/DefImgSettings.png" title="Default Imaging Settings Sub-menu" style="mc-thumbnail: popup;mc-thumbnail-max-height: 30%;width: 80%;height: auto;" />
+        </p>
+        <p class="imageTitle">Default Imaging Settings Sub-menu</p>
+        <p class="NoteCallout"><b>Note</b>: The <b>Control Panel</b> is available next to the <b>Imaging Settings</b> panel so you can easily navigate between the wells, zoom in and out of the drops, and adjust the camera and optics settings without having to go to the <b>Imager</b> menu.</p>
+        <div>&#160;</div>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Rows.css');margin-left: auto;margin-right: auto;width: 80%;" class="TableStyle-Rows" cellspacing="1">
+            <col class="Column-Column1" style="width: 210px;" />
+            <col class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <th class="HeadE-Column1-Header1">
+                        <p style="text-align: center;">Item</p>
+                    </th>
+                    <th class="HeadD-Column1-Header1">
+                        <p style="text-align: center;">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">
+                        <img src="../../Resources/Images/Images/Orange_Numbers/1.png" style="height: auto;width: 50px;" />
+                        <p style="font-weight: bold;text-align: center;">Plate Type List</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>Select the plate type you are interested in editing. You can <a href="https://help.formulatrix.com/rock-maker/3.17#Administration/Setup/Tutorials/Adding_Plate_Types.htm" target="_blank">add new plate types to the list from ROCK MAKER software</a>.
+</p>
+                        <p>You can export new plate type definitions by clicking <b>More Actions</b> and selecting <b>Export</b>. The system will  save your plate type settings in an .XML file format. You can also use the <b>Import</b> feature to import the file later if needed or if you obtain new plate type settings from FORMULATRIX support. 
+
+</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">
+                        <img src="../../Resources/Images/Images/Orange_Numbers/2.png" style="width: 50px;height: auto;" />
+                        <p style="font-weight: bold;text-align: center;">Lightpath</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>Select the lightpath of interest. The type of imaging modes available here depends on the imaging types you purchased. The Visible lightpath is the default imaging setting and is always present. 
+</p>
+                        <p>Each lightpath provides slightly different settings for area numbers 3, 4, and 5. If you select <b>Ultraviolet</b>, the <b>Enable For This Plate Type</b> option will show up. Enabling this option allows you to image your experiments using UV lightpath.
+
+</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2" style="text-align: center;">
+                        <img src="../../Resources/Images/Images/Orange_Numbers/3.png" style="width: 50px;height: auto;" />
+                        <p style="text-align: center;font-weight: bold;">Optics and Exposure</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>This area contains settings for the optics components and resolutions along with the exposure settings to use during plate imaging.
+</p>
+                        <p style="text-align: center;">
+                            <img src="../../Resources/Images/Images/PlateSetupMenu/VisibleOpticsandExposure.png" title="Optics &amp; Exposure Options for Visible Lightpath" style="mc-thumbnail: popup;mc-thumbnail-max-height: 80%;width: 50%;height: auto;" />
+                        </p>
+                        <p class="imageTitle">Optics &amp; Exposure Options for Visible Lightpath</p>
+                        <p style="text-align: center;">
+                            <img src="../../Resources/Images/Images/PlateSetupMenu/UVOpticsandExposure.png" title="Optics &amp; Exposure Options for Ultraviolet Lightpath" style="mc-thumbnail: popup;mc-thumbnail-max-height: 80%;width: 50%;height: auto;" />
+                        </p>
+                        <p class="imageTitle">Optics &amp; Exposure Options for Ultraviolet Lightpath</p>
+                        <ul>
+                            <li style="font-weight: bold;">
+                                <p>Binning</p>
+                                <p><span style="font-weight: normal;">Affects image quality and size. Using lower binning values will result in larger resolution and higher-quality images. 1x1 binning provides optimum image quality but requires longer processing time, whereas 2x2 binning provides lower image quality but reduced processing time.</span>
+                                </p>
+                            </li>
+                            <li style="font-weight: bold;">
+                                <p>Gamma</p>
+                                <p style="font-weight: normal;"><span style="font-weight: normal;">Affects the contrast of the midtones in the image. Modifying this setting only affects the midtones, without affecting black and white. However, changing this setting affects both the live image and automatic imaging.</span>
+                                </p>
+                            </li>
+                            <li style="font-weight: bold;">
+                                <p>Condenser</p>
+                                <p style="font-weight: normal;">The condenser collects light from the Köhler light source and concentrates it onto the well being examined. Values range from 0 - 100%. At 0%, the iris is fully open, and a cone of light is concentrated at a wide-angle. At 100%, the iris is closed and the light is concentrated in a column of light as opposed to a cone.</p>
+                                <p style="font-weight: normal;">Adjusting the condenser value can improve image contrast. Read <MadCap:xref href="../../Visible_Light_Imaging.htm" target="_blank"> Visible Light Imaging</MadCap:xref> for more information.</p>
+                            </li>
+                            <li style="font-weight: bold;">
+                                <p style="font-weight: normal;"><b>Gain</b>
+                                </p>
+                                <p style="font-weight: normal;">Used to amplify signal strength in low-light conditions and increase the pixel’s sensitivity to light, in order to make the image brighter.</p>
+                            </li>
+                            <li style="font-weight: bold;">
+                                <p><span style="font-weight: bold;">Polarizer</span>
+                                </p>
+                                <p style="font-weight: normal;">Determines the angle at which the top polarizer lens is projecting the light from 0 - 3600 relative to the bottom stationary polarizer. When the polarizer is set to 900, it will be crossed to the bottom polarizer resulting in a black image, except where there are birefringent crystals making it useful to find protein crystals.</p>
+                            </li>
+                            <li style="font-weight: bold;">
+                                <p>Exposure Options</p>
+                                <p style="font-weight: normal;">This area determines how exposure settings are used by ROCK IMAGER FT during plate imaging. In Visible imaging, you can opt between <span style="font-weight: bold;">Fixed Exposure</span>, <span style="font-weight: bold;">Auto Exposure From First Drop</span>, or <span style="font-weight: bold;">Auto Exposure for Every Drop</span>. For UV imaging, only <span style="font-weight: bold;">Fixed Exposure</span> is available.</p>
+                                <ul style="list-style-type: circle;font-weight: normal;">
+                                    <li>
+                                        <p><b style="font-size: 10pt;">Fixed Exposure</b>: Lets you manually adjust the <b style="font-size: 10pt;">Brightness</b> and <b style="font-size: 10pt;">Exposure</b> settings in the corresponding fields. Set the values accordingly so that the image will have enough contrast and not appear too dark.</p>
+                                    </li>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">Auto Exposure from First Drop</b>: ROCK IMAGER FT will find the optimum exposure and brightness on the first drop on the plate and use those exposure settings for every drop on the plate thereafter.</p>
+                                    </li>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">Auto Exposure for Every Drop</b>: ROCK IMAGER determines the optimum exposure and brightness for each drop before imaging each individual drop on a plate. This is the most common setting.</p>
+                                        <p class="NoteCallout"><b>Note</b>: The exposure settings for each drop can be different depending on the conditions of each drop.</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1" style="text-align: center;">
+                        <img src="../../Resources/Images/Images/Orange_Numbers/4.png" style="width: 50px;height: auto;" />
+                        <p style="text-align: center;font-weight: bold;">Drop Location</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p><b style="font-size: 10pt;">Drop Location</b> settings determine how ROCK IMAGER executes the <b style="font-size: 10pt;">Drop Location</b> algorithm for the selected plate type. Options may vary depending on the imaging methods you purchased.
+</p>
+                        <p style="text-align: center;">
+                            <img src="../../Resources/Images/Images/PlateSetupMenu/VisibleDropLocation.png" title="Drop Location Options for Visible Lightpath" style="mc-thumbnail: popup;mc-thumbnail-max-height: 80%;width: 50%;height: auto;" />
+                        </p>
+                        <p class="imageTitle">Drop Location Options for Visible Lightpath</p>
+                        <p style="text-align: center;">
+                            <img src="../../Resources/Images/Images/PlateSetupMenu/UVDropLocation.png" title="Drop Location Options for Ultraviolet Lightpath" style="mc-thumbnail: popup;mc-thumbnail-max-height: 80%;width: 50%;height: auto;" />
+                        </p>
+                        <p class="imageTitle">Drop Location Options for Ultraviolet Lightpath</p>
+                        <p>ROCK IMAGER FT can execute <b>Drop Location</b> in two ways: <b>Fixed method</b> and <b><MadCap:keyword term="Locate Drop" />Locate Drop</b> method.</p>
+                        <ul>
+                            <li>
+                                <p style="font-weight: bold;">Fixed Method</p>
+                                <p>Selecting <b>Fixed</b> tells ROCK IMAGER FT to use the drop positions defined in the <a href="About_Plate_Type_Calibration.htm#Drop_Positions_Panel" target="_blank">Drop Positions panel</a> when imaging an experiment. If the selected plate type has more than one drop per well, you can instruct the system to image each drop on the well using different zoom settings by selecting the <b>Override Zoom</b> check box.</p>
+                                <p style="text-align: center;">
+                                    <img src="../../Resources/Images/Images/PlateSetupMenu/overridezoom.png" title="Override Zoom Option" style="width: 50%;height: auto;" />
+                                </p>
+                                <p class="imageTitle">Override Zoom Option</p>
+                            </li>
+                            <li>
+                                <p style="font-weight: bold;">Locate Drop Method</p>
+                                <p>This method instructs ROCK IMAGER FT to run the <b>Locate Drop algorithm</b> before capturing images. Before imaging, the system will perform an overview using the zoom value defined in the <b>Zoom</b> box and the objective (for UV lightpath) from the <b>Objective</b> list. The system will find a drop location using these exact settings.</p>
+                                <p class="NoteCallout"><b>Note</b>: The <b>Objective</b> and <b>Zoom</b> options are only available if your hardware supports continuous zoom or objective lenses.</p>
+                                <p>The <b>Missed Zoom</b> option is available when using the Visible lightpath and <b>Locate Drop</b> method. If ROCK IMAGER FT fails to locate the drop using the <b>Locate Drop algorithm</b>, the <b>Missed Zoom</b> value will be used to image the drop. The smallest possible value is 1 and the highest is 12.</p>
+                            </li>
+                        </ul>
+                        <p>&#160;</p>
+                        <p style="font-size: 12pt;">Locate Drop Method Settings</p>
+                        <p>When using the <b>Locate Drop</b> method, you can further customize how to run the <b>Drop Location algorithm</b>.</p>
+                        <p style="text-align: center;">
+                            <img src="../../Resources/Images/Images/PlateSetupMenu/standarddroplocationmethod.png" title="Locate Drop Method Settings" style="width: 50%;height: auto;" />
+                        </p>
+                        <p class="imageTitle">Locate Drop Method Settings</p>
+                        <p>From the <b style="font-size: 10pt;">Method</b> box, you can choose between <b style="font-size: 10pt;">Standard</b> and <b style="font-size: 10pt;">Lipidic Cubic Phase</b><span style="font-size: 10pt;"> <![CDATA[ ]]></span><b style="font-size: 10pt;">(LCP)</b>. The <b style="font-size: 10pt;">LCP</b> method instructs ROCK IMAGER FT on how to locate drops on an LCP or glass plate. The other fields determine the <a href="../Imager_Menu/Optics_and_Camera_Control_Panel.htm" target="_blank">optics and camera settings</a> used while the system is locating a drop before imaging.</p>
+                        <p>&#160;</p>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Advanced Settings Option for Standard Method</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ul>
+                                    <li>
+                                        <p><b><span style="font-size: 10pt;">Min. Length (µm</span>)</b>: Controls the minimum number of µm in a blob for that blob to count as a drop.</p>
+                                    </li>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">Max. Length (µm)</b>: Controls the maximum number of µm in a blob for that blob to count as a drop.</p>
+                                    </li>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">White Pixel Min</b>: The minimum range of pixel intensities that maps to white when converting a sobel image to a binary image.</p>
+                                    </li>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">White Pixel Max</b>: The maximum range of pixel intensities that maps to white when converting a sobel image to a binary image.</p>
+                                    </li>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">Open Iterations</b>: Determines the number of iterations for the system to run when opening the image in preparation for drop location.</p>
+                                    </li>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">Max. Aspect Ratio</b>: The maximum ratio between the largest and the smallest Feret diameter of the blob that represents the drop.</p>
+                                    </li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                        <div>&#160;</div>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>Advanced Settings Option for LCP Method</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <ul>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">Min. Drop Size (µm)</b>: Determines the minimum size of a drop.</p>
+                                    </li>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">Max. Drop Size (µm)</b>: Determines the maximum size of a drop.</p>
+                                    </li>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">Drop White Pixel Min</b>: Determines the minimum size of a drop, measured in pixels.</p>
+                                    </li>
+                                    <li>
+                                        <p><b><span style="font-size: 10pt;">Drop White Pixel Max</span></b>: Determines the maximum size of a drop, measured in pixels.</p>
+                                    </li>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">Drop Open Iterations</b>: Determines how round an object must be to be recognized as a drop.</p>
+                                    </li>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">LP Open Iterations</b>: Determines how round an object must be to be recognized as a drop.</p>
+                                    </li>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">LP White Pixel Min</b>: Determines the minimum size of a lipid phase, measured in pixels.</p>
+                                    </li>
+                                    <li>
+                                        <p><b style="font-size: 10pt;">LP White Pixel Max</b>: Determines the maximum size of a lipid phase, measured in pixels.</p>
+                                    </li>
+                                </ul>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2" style="text-align: center;">
+                        <img src="../../Resources/Images/Images/Orange_Numbers/5.png" style="width: 50px;height: auto;" />
+                        <p style="text-align: center;font-weight: bold;">
+                            <MadCap:keyword term="Focus Level" /><a name="Focus_Level"></a>Focus Level</p>
+                    </td>
+                    <td class="BodyA-Column1-Body2">
+                        <p>Think of <b style="font-size: 10pt;">Focus Level</b> as a capture range. These settings dictate how the system images a drop once it locates one and adjust the number of focus levels acquired. You can select <b style="font-size: 10pt;">Auto Focus with Limits</b>, <b style="font-size: 10pt;">Fixed Range (DoF Limited)</b>, or <b style="font-size: 10pt;">Fixed Range (Interpolated)</b>.
+</p>
+                        <p>
+                            <MadCap:dropDown>
+                                <MadCap:dropDownHead>
+                                    <MadCap:dropDownHotspot>Auto Focus with Limits</MadCap:dropDownHotspot>
+                                </MadCap:dropDownHead>
+                                <MadCap:dropDownBody>
+                                    <p>Runs the <b style="font-size: 10pt;">Auto Focus algorithm</b> on the drop to pinpoint the best focus level for the drop on the <span style="font-weight: normal;">Z</span> axis. Once the focus level is determined, the system captures images above and below this point, called “slices”. The slices are analyzed and compiled by <a href="../../Imaging_Plates/Concepts/ROCK_IMAGER_Processor_(RIP).htm" target="_blank" style="font-size: 10pt;">ROCK IMAGER Processor</a> into Extended Focus Image (EFI), which is the default image displayed in ROCK MAKER.</p>
+                                    <p class="NoteCallout"><b style="font-size: 10pt;">Note</b>: <b style="font-size: 10pt;">Auto Focus with Limits</b> is used when the <b style="font-size: 10pt;">Z</b> position of the drop is inconsistent across the plate. This can be used for LCP and hanging drop experiments.</p>
+                                    <ul>
+                                        <li>
+                                            <p><b style="font-size: 10pt;">Auto Focus with Limits</b>
+                                            </p>
+                                            <p style="text-align: center;">
+                                                <img src="../../Resources/Images/Images/PlateSetupMenu/focuslevel/autofocuswithlimit.png" title="Auto Focus with Limits" style="width: 40%;height: auto;" />
+                                            </p>
+                                            <p class="imageTitle">Auto Focus with Limits</p>
+                                            <p>There are five settings that dictate how slices are acquired:</p>
+                                            <ul style="list-style-type: circle;">
+                                                <li>
+                                                    <p><b style="font-size: 10pt;">Max. Focus Level Above</b> and <b style="font-size: 10pt;">Max. Focus Level Below</b> determine the absolute number of slices to be taken above and below the best focus level, respectively.</p>
+                                                    <p class="NoteCallout"><b style="font-size: 10pt;">Note</b>: While acquiring too many focus levels will increase the drop details, it will also result in a longer imaging time.</p>
+                                                </li>
+                                                <li>
+                                                    <p><b style="font-size: 10pt;">Focus Threshold Above</b> and <b style="font-size: 10pt;">Focus Threshold Below</b> set the focus threshold for slices relative to the best focus level. For example, when the <b style="font-size: 10pt;">Focus Threshold Above</b> value is set to <b style="font-size: 10pt;">7</b>, all slices that are above the best focus level, and are at least <b style="font-size: 10pt;">70%</b> in focus, will be saved. For this particular setting, a larger threshold value will result in fewer slices acquired, and a smaller number will result in more slices.</p>
+                                                    <p>ROCK IMAGER FT takes as many slices as is defined by the <b style="font-size: 10pt;">Max. Focus Levels</b> or <b style="font-size: 10pt;">Focus Threshold</b>. Whichever of these limits is met first by the system will determine the total number of slices acquired.</p>
+                                                </li>
+                                                <li>
+                                                    <p><b style="font-size: 10pt;">Min. Step Size (mm)</b>: Limits the number of slices during the auto-focus plate imaging. The default value is 0.04 mm.</p>
+                                                    <div>&#160;</div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p><b style="font-size: 10pt;">Fixed Range (DoF Limited)</b>
+                                            </p>
+                                            <p>Using this option, ROCK IMAGER FT will capture slices along the <b style="font-size: 10pt;">Z</b> axis between the start and stop heights and also determine the best number of slices to take based on the <b style="font-size: 10pt;">Depth of Field (DOF)</b> of the optics in use.</p>
+                                            <p style="text-align: center;">
+                                                <img src="../../Resources/Images/Images/PlateSetupMenu/focuslevel/fixedrangedoflimited.png" title="Fixed Range (DoF Limited)" style="width: 40%;height: auto;" />
+                                            </p>
+                                            <p class="imageTitle">Fixed Range (DoF Limited)</p>
+                                            <p>The three settings below the <b style="font-size: 10pt;">Capture Range</b> box dictate how slices are captured. The <b style="font-size: 10pt;">Start Z (mm)</b> and <b style="font-size: 10pt;">Stop Z (mm)</b> values determine the range along the Z axis where the system captures slices of the drop. The <b style="font-size: 10pt;">Max. Focus Levels</b> value equates to how many slices ROCK IMAGER FT captures before sending the images to RIP.</p>
+                                            <div>&#160;</div>
+                                        </li>
+                                        <li>
+                                            <p><b style="font-size: 10pt;">Fixed Range (Interpolated)</b>
+                                            </p>
+                                            <p>Using this setting, ROCK IMAGER FT will capture slices along the start and stop z-heights of the drop. You will need to type the desired focus levels to be acquired in the <b style="font-size: 10pt;">Focus Levels</b> box.</p>
+                                        </li>
+                                    </ul>
+                                </MadCap:dropDownBody>
+                            </MadCap:dropDown>
+                        </p>
+                        <p>
+                            <MadCap:dropDown>
+                                <MadCap:dropDownHead>
+                                    <MadCap:dropDownHotspot>Fixed Range (DoF&#160;Limited)</MadCap:dropDownHotspot>
+                                </MadCap:dropDownHead>
+                                <MadCap:dropDownBody>
+                                    <p>Using this option, ROCK IMAGER FT will capture slices along the <b style="font-size: 10pt;">Z</b> axis between the start and stop heights and also determine the best number of slices to take based on the <b style="font-size: 10pt;">Depth of Field (DOF)</b> of the optics in use.</p>
+                                    <p style="text-align: center;">
+                                        <img src="../../Resources/Images/Images/PlateSetupMenu/focuslevel/fixedrangedoflimited.png" title="Fixed Range (DoF Limited)" style="width: 40%;height: auto;" />
+                                    </p>
+                                    <p class="imageTitle">Fixed Range (DoF Limited)</p>
+                                    <p>The three settings below the <b style="font-size: 10pt;">Capture Range</b> box dictate how slices are captured. The <b style="font-size: 10pt;">Start Z (mm)</b> and <b style="font-size: 10pt;">Stop Z (mm)</b> values determine the range along the Z axis where the system captures slices of the drop. The <b style="font-size: 10pt;">Max. Focus Levels</b> value equates to how many slices ROCK IMAGER FT captures before sending the images to RIP.</p>
+                                </MadCap:dropDownBody>
+                            </MadCap:dropDown>
+                        </p>
+                        <p>
+                            <MadCap:dropDown>
+                                <MadCap:dropDownHead>
+                                    <MadCap:dropDownHotspot>Fixed Range (Interpolated)</MadCap:dropDownHotspot>
+                                </MadCap:dropDownHead>
+                                <MadCap:dropDownBody>
+                                    <p>Using this setting, ROCK IMAGER FT will capture slices along the start and stop z-heights of the drop. You will need to type the desired focus levels to be acquired in the <b style="font-size: 10pt;">Focus Levels</b> box.</p>
+                                    <p>
+                                        <img src="../../Resources/Images/Images/PlateSetupMenu/focuslevel/fixedrangeinterpolated.png" title="Fixed Range(Interpolated)" style="width: 40%;height: auto;" />
+                                    </p>
+                                    <p class="imageTitle">Fixed Range(Interpolated)</p>
+                                </MadCap:dropDownBody>
+                            </MadCap:dropDown>
+                        </p>
+                        <div>&#160;</div>
+                        <p style="font-size: 12pt;">Capture Levels</p>
+                        <ul>
+                            <li>
+                                <p><b style="font-size: 10pt;">Step Size (DoF %)</b> — Dictates the depth of field overlap between slices. The default value is 40%, which means that 60% of a slice will be overlapped by the slice next to it. A step size of 100% results in no overlap and the slices are taken at intervals of the defined DoF.</p>
+                                <p>At the default value of 40%, the system will produce the highest quality images possible. Increasing the value will reduce image quality, but will also result in quicker imaging time because the total number of slices acquired decreases.</p>
+                            </li>
+                        </ul>
+                        <div>&#160;</div>
+                        <p style="font-size: 12pt;">Auto Focus Capture Range</p>
+                        <p><i>Available for Visible light path only</i>. This setting limits the movement of <b style="font-size: 10pt;">Auto Focus</b> (in mm) with the default values for the Auto Focus Range between 0 - 0.5 mm. You can change these values by typing your desired values into the corresponding boxes.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+    </body>
+</html>

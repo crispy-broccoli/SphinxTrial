@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html madcap:lastblockdepth="10" madcap:lastheight="2099.5" madcap:lastwidth="1089" xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head><title>About Plate Type Calibration</title>
+<link href="../../Resources/TableStyles/Rows.css" madcap:stylesheettype="table" rel="stylesheet"/>
+<meta content="Learn how to tune plates in ROCK IMAGER FT to get more precise imaging results." name="description"/>
+</head>
+<body>
+<h1>About Plate Type Calibration</h1>
+<p>
+<madcap:keyword term="Plate Type Calibration"></madcap:keyword>During initial hardware installation, FORMULATRIX technicians tune the settings for each plate type you plan to use with your ROCK IMAGER FT. However, if you start using new plate types or your imager isn’t capturing drop images as precisely anymore, you may want to fine-tune your plate settings in order to improve drop location accuracy using the <b>Plate Type Calibration</b> feature in the <b>Plate Setup</b> menu. We recommend that only advanced users modify these settings. The information below is for lab managers, so that they may adjust settings as they see fit.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/PlateSetupMenu/PlateTypeCalibration.png" style="mc-thumbnail: popup;mc-thumbnail-max-height: 30%;width: 80%;height: auto;" title="Plate Type Calibration Sub-menu"/>
+</p>
+<p class="imageTitle">Plate Type Calibration Sub-menu</p>
+<div> </div>
+<h2>Using Plate Type Calibration</h2>
+<p>The <b>Plate Type Calibration</b> sub-menu consists of two panels on the right side of the screen: <b>General</b> and <b>Drop Positions</b>.</p>
+<div> </div>
+<madcap:dropdown>
+<madcap:dropdownhead>
+<madcap:dropdownhotspot>General Panel</madcap:dropdownhotspot>
+</madcap:dropdownhead>
+<madcap:dropdownbody>
+<p>The <b>General</b> panel includes basic information about the specifications of the plate and well limit settings.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/PlateSetupMenu/GeneralPanel.png" style="mc-thumbnail: popup;mc-thumbnail-max-height: 70%;width: 40%;height: auto;" title="General Panel"/>
+</p>
+<p class="imageTitle">General Panel</p>
+<table cellspacing="1" class="TableStyle-Rows" style="mc-table-style: url('../../Resources/TableStyles/Rows.css');margin-left: auto;margin-right: auto;width: 80%;">
+<col class="Column-Column1" style="width: 203px;"/>
+<col class="Column-Column1"/>
+<tbody>
+<tr class="Body-Body2">
+<td class="BodyE-Column1-Body2" style="font-weight: bold;">
+<p style="text-align: center;font-weight: bold;">Plate Settings</p>
+</td>
+<td class="BodyD-Column1-Body2">
+<p>The first three rows are uneditable fields that provide information (obtained from ROCK MAKER) about plate specifications, including the number of <b>Columns</b>, <b>Rows</b>, <b>Hotel Type</b>, <b>Drops</b> per well, and the number of hotel slots required for the plate.
+</p>
+<ul>
+<li>
+<p>The <b>Plate Alignment</b> drop-down list contains vector files that help the system position the plate for imaging. Select the vector of interest from the list should you want to edit it.</p>
+</li>
+<li>
+<p>The <b>Enable Bump on Plate Return</b> option dictates whether or not the plate will be bumped on the plate bump before being removed from the imager. When this option is enabled, the plate bump will be used to safely align the plate to ensure that it is positioned correctly in the Storage.</p>
+</li>
+<li>
+<p>The <b>Enable Drop Position Saving</b> option dictates whether or not the <b>Drop Location Algorithm</b> will run each time the selected plate type is imaged, or if ROCK IMAGER FT will save the <b>Drop Location</b> settings to memory. If selected, it will result in faster imaging time.</p>
+</li>
+<li>
+<p>The <b>Enable Plate Sensor</b> option dictates whether or not the plate sensors are turned on for the selected plate type. Plate sensors are used to locate the plate inside the system, e.g. in the Storage, under the imager or in the Load Port.</p>
+<p class="NoteCallout"><b>Note</b>: For LCP plates, we recommend that you disable this option because this plate type cannot be detected by the sensors, which might cause errors when it’s sent for imaging.</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="Body-Body1">
+<td class="BodyB-Column1-Body1">
+<p style="font-weight: bold;text-align: center;">Well Limits</p>
+</td>
+<td class="BodyA-Column1-Body1">
+<p>Contains settings for the limits (in mm) imposed on the robot arm movement as it relates to the well position on the plate. These values will affect how far the imager arm can move along the X, Y, and Z axes when you navigate around a drop using the <a href="../Imager_Menu/Well_Control_Panel.html#Fine_Tuning_Movement" target="_blank">Fine Tuning Movement controls</a> in the <b>Well Control</b> panel. We recommend that you enable this option. </p>
+<p class="NoteCallout"><![CDATA[
+]]><b>Note</b>: When using plates with larger wells (such as Linbro), increase the X and Y values accordingly so that the drop will not appear off-centered.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</madcap:dropdownbody>
+</madcap:dropdown>
+<madcap:dropdown>
+<madcap:dropdownhead>
+<madcap:dropdownhotspot>Drop Positions Panel<a name="Drop_Positions_Panel"></a></madcap:dropdownhotspot>
+</madcap:dropdownhead>
+<madcap:dropdownbody>
+<p>The coordinates in the <b>Drop Positions</b> panel correlate to the corner drops on the plate. From the coordinates of these corner positions, the system uses linear interpolation to compute the locations of all drops on the plate. You can <a href="Tuning_Plates_in_ROCK_IMAGER_FT.html" target="_blank">tune these positions</a> for better images at any time.</p>
+<p>In this panel, the same <b>Control Panel</b> options that you find in the <b>Live Image</b> sub-menu are also present to help you easily find the precise drop location positions when tuning plates.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/PlateSetupMenu/DropPositions.png" style="mc-thumbnail: popup;mc-thumbnail-max-height: 70%;width: 40%;height: auto;" title="Drop Positions Panel"/>
+</p>
+<p class="imageTitle">Drop Positions Panel</p>
+</madcap:dropdownbody>
+</madcap:dropdown>
+<p> </p>
+<h4 class="SeeAlso">related topics</h4>
+<ul>
+<li>
+<madcap:xref href="Plate_Setup_Menu.htm">Plate Setup Menu</madcap:xref>
+</li>
+<li>
+<madcap:xref href="Tuning_Plates_in_ROCK_IMAGER_FT.htm">Tuning Plates in ROCK IMAGER FT</madcap:xref>
+</li>
+<li>
+<madcap:xref href="../Imager_Menu/Optics_and_Camera_Control_Panel.htm">Optics and Camera Control Panel</madcap:xref>
+</li>
+<li>
+<madcap:xref href="../Imager_Menu/Well_Control_Panel.htm">Well Control Panel</madcap:xref>
+</li>
+</ul>
+</body>
+</html>

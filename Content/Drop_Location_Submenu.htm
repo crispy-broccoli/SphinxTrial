@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html madcap:lastblockdepth="4" madcap:lastheight="2940.5" madcap:lastwidth="1168" xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head><title>Drop Location Sub-menu</title>
+<meta content="Learn more about how ROCK IMAGER FT executes the Drop Location algorithm." name="description"/>
+</head>
+<body>
+<h1>Drop Location Sub-menu<madcap:keyword term="Drop Location"></madcap:keyword></h1>
+<p style="font-size: 10pt;">In this topic, you will learn about:</p>
+<ul>
+<li>
+<p>
+<madcap:xref href="#Drop_Location_Overview" target="_self">Drop Location Overview</madcap:xref>
+</p>
+</li>
+<li>
+<p>
+<madcap:xref href="#Manually_Executing_Drop_Location" target="_self">Manually Executing Drop Location</madcap:xref>
+</p>
+</li>
+<li>
+<p>
+<madcap:xref href="#Clearing_Drop_Locations" target="_self">Clearing Drop Locations</madcap:xref>
+</p>
+</li>
+</ul>
+<p style="font-size: 10pt;"> </p>
+<h2>Drop Location Overview<a name="Drop_Location_Overview"></a></h2>
+<p style="font-size: 10pt;">The <b>Drop Location</b> algorithm in ROCK IMAGER FT is useful for hanging drop experiments, as the location of the drop varies in this type of experiment. ROCK IMAGER FT is very accurate when detecting drop locations, so it can differentiate droplet condensation, semi-circular objects, and LCP plate tape from sample drops.</p>
+<p style="font-size: 10pt;">The <b>Drop Location</b> algorithm can be initiated manually from the <b><a href="Optics_and_Camera_Control_Panel.html" target="_blank"><b>Optics and Camera Control</b> panel</a></b> and is sometimes executed as part of the automatic imaging of a plate. Whether or not it’s executed every time a plate is imaged or only during the first imaging session is determined in the <b><a href="../Plate_Setup_Menu/Plate_Setup_Menu.html" target="_blank"><b>Plate Setup</b> menu</a></b>. Executing the <b>Drop Location</b> algorithm only in the first imaging session is advantageous for quicker future imaging sessions.</p>
+<p style="font-size: 10pt;">However, if you want to see how the drop location algorithm works, you can do it in <b>Manual Mode</b> by clicking the <b>Drop Location</b> button in the <b>Live Image</b> sub-menu. This action will only execute the drop location algorithm on the drop currently in view.</p>
+<div> </div>
+<div> </div>
+<h2>Manually Executing Drop Location<a name="Manually_Executing_Drop_Location"></a></h2>
+<p style="font-size: 10pt;"><b>Prerequisites</b>:</p>
+<ul>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">ROCK IMAGER FT is in <b>Manual Mode</b>.</p>
+</li>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">You have placed the plate under the Visible imager.</p>
+</li>
+</ul>
+<p style="font-size: 10pt;"> </p>
+<p style="font-size: 10pt;"><b>To manually execute drop location</b>:</p>
+<ol>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">In the <b>Live Image</b> sub-menu of the <b>Imager</b> menu, turn the <b>Live Stream</b> ON.</p>
+</li>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">Select <b>Locate Drop</b> from the <b>Optics and Camera Control</b> panel.</p>
+</li>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">Go to the <b>Drop Location</b> sub-menu to see the algorithm results.</p>
+</li>
+</ol>
+<p style="font-size: 12pt;text-align: center;">
+<img src="../../Resources/Images/Images/DropLocationsubmenu/DropLocationVisible.png" style="mc-thumbnail: popup;mc-thumbnail-max-height: 30%;width: 70%;height: auto;" title="Drop Location Algorithm Results"/>
+</p>
+<p class="imageTitle" style="font-style: italic;">Drop Location Algorithm Results</p>
+<p style="font-size: 10pt;">As shown in the image above, once ROCK IMAGER FT has located a drop, a red box will appear around the drop. The right side shows how the algorithm works to locate a drop. </p>
+<p style="font-size: 10pt;">When ROCK IMAGER executes the drop location algorithm, the drop area is imaged with a large field of view, and the lighting is set in order to create shadowing within the drop. ROCK IMAGER FT then analyzes the image to locate the contrast between the shadow in the drop and the rest of the image, and zooms in on the shadowed area. The imager then uses normal imaging settings to photograph the drop.</p>
+<p class="NoteCallout"><b>Note</b>: The red plus symbol indicates the center of the drop, while the green plus indicates the center of the image.</p>
+<p style="font-size: 10pt;"> </p>
+<p> </p>
+<h2>Clearing Drop Locations<a name="Clearing_Drop_Locations"></a></h2>
+<p style="font-size: 10pt;">Occasionally you may need to clear a drop location on a per-drop or per-plate basis. For example, if your drop grows beyond the original drop size, you may need to clear the drop location and run the drop location algorithm again in order to get the best images of your drops.</p>
+<p style="font-size: 10pt;"> </p>
+<p style="font-size: 10pt;"><b>Prerequisites</b>:</p>
+<ul>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">ROCK IMAGER FT has already identified drop locations on your plate.</p>
+</li>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">You want to remove one or all of the drop locations.</p>
+</li>
+</ul>
+<div style="font-size: 10pt;"> </div>
+<p style="font-size: 10pt;"><b>To clear drop locations on a per-plate basis</b>:</p>
+<ol>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">In the <b>Plate</b> menu, go to the <b>Search</b> or <b>Load Port</b> tab and locate the desired plate.</p>
+<p style="font-weight: bold;font-size: 10pt;">OR</p>
+<p style="font-weight: bold;font-size: 10pt;"><span style="font-weight: normal;">If the plate is currently under the imager,</span> <span style="font-weight: normal;">go to the</span> <span style="font-weight: bold;">Live Image</span> <span style="font-weight: normal;">sub-menu</span>.</p>
+</li>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">If the plate is inside the imager, click <b>Clear Drop</b> and select <b>Clear All Drop Locations</b>.</p>
+<p style="font-size: 10pt;font-weight: bold;">OR</p>
+<p style="font-weight: normal;font-size: 10pt;">If the plate is in the Storage or Load Port, select the desired plate and click <span style="font-weight: bold;">Clear All Drop Locations</span>  on the command panel that appears.</p>
+</li>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">When the confirmation message below appears, select <b>Yes</b> if you want to clear drop locations in ROCK MAKER (or another LIMS) too.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/DropLocationsubmenu/clearcurrentdrop.png" style="width: 300px;height: auto;" title="Clearing Drop Location Overrides Confirmation Message"/>
+</p>
+<p class="imageTitle">Clearing Drop Location Overrides Confirmation Message</p>
+</li>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">A notification appears when all drop locations have been successfully cleared.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/DropLocationsubmenu/ClearAllDropLocationSuccessNotification.png" title="Clearing All Drop Locations Successful"/>
+</p>
+<p class="imageTitle">Clearing All Drop Locations Successful</p>
+</li>
+</ol>
+<p> </p>
+<p style="font-size: 10pt;"><b>To clear drop locations on a per-drop basis</b>:</p>
+<p class="NoteCallout" style="font-size: 10pt;"><b>Note</b>: This option can only be done if the plate is under an imager. If it's not already, locate the plate in the <b>Search</b> tab and move it to the imager.</p>
+<div style="font-size: 10pt;"> </div>
+<ol>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">Go to the <b>Live Image</b> sub-menu and turn the <b>Live Stream</b> ON.</p>
+</li>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">Using the well graphic in the <b>Well Control</b> panel, select the drop of interest. Click <b>Clear Drop</b> in the toolbar area and select <b>Clear Current Drop Location</b>.</p>
+</li>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">When the confirmation message below appears, select <b>Yes</b> if you want to clear drop locations in ROCK MAKER (or another LIMS) too.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/DropLocationsubmenu/ClearCurrentDrops.png" style="width: 300px;height: auto;" title="Clearing Drop Location Overrides Confirmation Message"/>
+</p>
+<p class="imageTitle">Clearing Drop Location Overrides Confirmation Message</p>
+</li>
+<li style="font-size: 11pt;">
+<p style="font-size: 10pt;">A notification appears when the drop location has been successfully cleared.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/DropLocationsubmenu/clearcurrentdroplocationsuccess.png" style="width: 440px;height: 63px;" title="Clearing Current Drop Location Successful"/>
+</p>
+<p class="imageTitle">Clearing Current Drop Location Successful</p>
+<p class="imageTitle"> </p>
+</li>
+</ol>
+<hr/>
+<div> </div>
+<h3>Frequently Asked Questions</h3>
+<p style="font-style: italic;font-size: 10pt;">► Can <b>Drop Location</b> be executed using any lightpaths?</p>
+<p style="font-size: 10pt;">Answer: Drop Location can only be executed using a Visible camera, as it displays the drop as well as crystals inside it. The UV camera, for example, only highlights the crystals present in the drop. You may find it useful to locate a drop using Visible lightpath, then image it with UV.</p>
+<div style="font-size: 10pt;"> </div>
+<p style="font-style: italic;font-size: 10pt;">► Why do we sometimes have to clear the drop location before locating any drop/plate?</p>
+<p style="font-size: 10pt;">Answer: When the results of the drop location algorithm are not precise, i.e. incorrect drop locations, we need to reset the old drop location before starting over. Moreover, drop location reset might be needed if your drop has grown beyond its original size.</p>
+<p> </p>
+<h4 class="SeeAlso">Related topics</h4>
+<ul style="font-size: 10pt;">
+<li>
+<madcap:xref href="../Plate_Setup_Menu/Plate_Setup_Menu.htm" target="_blank">Plate Setup Menu</madcap:xref>
+</li>
+<li>
+<madcap:xref href="Imager_Menu.htm" target="_blank">Imager Menu</madcap:xref>
+</li>
+<li>
+<madcap:xref href="../Plate_Menu.htm" target="_blank">Plate Menu</madcap:xref>
+</li>
+</ul>
+</body>
+</html>

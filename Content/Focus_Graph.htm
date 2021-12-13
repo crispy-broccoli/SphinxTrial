@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html madcap:lastblockdepth="4" madcap:lastheight="1818.5" madcap:lastwidth="1167" xmlns:madcap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head><title>Focus Graph</title>
+<meta content="Learn about the Focus Graph sub-menu, where you can see the data gathered by the Auto Focus algorithm used in ROCK IMAGER FT." name="description"/>
+</head>
+<body>
+<h1>Focus Graph Sub-menu</h1>
+<p>ROCK IMAGER FT can perform Autofocus on the drops during imaging sessions, which can be useful when zooming in on a region of interest. When an imaging session is taking place, ROCK IMAGER FT executes the Autofocus algorithm depending on the focus range settings in the <b>Plate Setup</b> menu. During the imaging session, the image you see in the <b>Live Image</b> sub-menu is the most in-focus frame from the AutoFocus algorithm.</p>
+<p>If you would like to see the process of the AutoFocus algorithm, you can do it in <b>Manual Mode</b> and view the results in the <b>Focus Graph</b> sub-menu.</p>
+<p> </p>
+<h2>How Does Autofocus Work?</h2>
+<p>The Autofocus <madcap:keyword term="Auto Focus"></madcap:keyword>algorithm works by locating objects in a drop along the Z-axis, which is useful when imaging hanging drops on greased cover slides.</p>
+<p>The imager captures a stack of images at 30 frames per second at a low resolution and computes a focus curve. The imager then determines the most in-focus image and captures that image at the normal resolution. You can adjust the focus settings in the <b><a href="../Plate_Setup_Menu/Defining_Default_Imaging_Settings.html#Focus_Level" target="_blank"><b>Focus Level</b> panel</a></b> of the <b>Plate Setup</b> menu.</p>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/autofocus_action.png" style="mc-thumbnail: popup;mc-thumbnail-max-width: 80%; mc-thumbnail-max-height:auto; width: 50%;height: auto;" title="How Autofocus Works"/>
+</p>
+<p class="imageTitle">How Autofocus Works</p>
+<p> </p>
+<h2>Manually Executing Autofocus</h2>
+<p style="font-weight: bold;">Prerequisites<span style="font-weight: normal;">:</span></p>
+<ul>
+<li>
+<p>ROCK IMAGER FT is in <b>Manual Mode</b>.</p>
+</li>
+<li>
+<p>You have placed the plate under Visible imager.</p>
+</li>
+</ul>
+<p> </p>
+<p style="font-weight: bold;">To manually execute Autofocus<span style="font-weight: normal;">:</span></p>
+<ol>
+<li>
+<p>In the <b>Live Image</b> sub-menu, turn the <b>Live Stream</b> ON and navigate to the desired drop using the well graphic in the  <b>Well Control</b> panel.</p>
+</li>
+<li>
+<p>Click <b>Auto Focus</b> in the toolbar area.</p>
+</li>
+<li>
+<p>Go to the <b>Focus Graph</b> sub-menu to see the results of the Autofocus algorithm.</p>
+</li>
+</ol>
+<p style="text-align: center;">
+<img src="../../Resources/Images/Images/FocusGraphVisible.png" style="mc-thumbnail: popup;mc-thumbnail-max-height: 30%;width: 70%;height: auto;" title="Autofocus Results"/>
+</p>
+<p class="imageTitle">Autofocus Results</p>
+<p>In the image above, the focus vs. z-position <b>graph</b> represents the z-height range where the slices will be captured when imaging is performed. The <b>Focus Graph Point</b> panel shows a stack of images captured depending on the settings you have in the <b>Plate Setup</b> menu. The Best Point image is the drop image that is displayed in the  <b>Live Image</b> sub-menu.</p>
+<p> </p>
+<hr/>
+<div> </div>
+<h3>Frequently Asked Questions</h3>
+<p style="font-style: italic;">► <i>I have switched to Manual Mode and turned the Live Stream ON, but the Auto Focus button is still not available?</i></p>
+<p>Answer: Make sure that you have placed the plate under Visible imager. Auto Focus can only be run using a Visible camera because exposing your drop samples to UV for an extended period of time might risk damaging the sample.</p>
+<p style="font-style: italic;">► How do I focus manually?</p>
+<p>Answer: You can define the AutoFocus range in the <b>Focus Level</b> panel of the <b>Plate Setup</b> menu. The AutoFocus algorithm then captures a series of frames at different points along the Z axis that lie between the start and stop height values of the AutoFocus range. Read <madcap:xref href="../Plate_Setup_Menu/Defining_Default_Imaging_Settings.htm" target="_blank">Defining Default Imaging Settings</madcap:xref> for more information.</p>
+<p style="font-style: italic;">► How to save a manually focused image?</p>
+<p>Answer: If you click <b>Image Now</b> after executing AutoFocus algorithm through the <b>Auto Focus</b> button, ROCK IMAGER FT will still image your drop/plate using the imaging settings as defined in the <b>Plate Setup</b> or in ROCK MAKER. The manual Autofocus in the <b>Live Image</b> sub-menu is strictly for manual inspection only.</p>
+<div> </div>
+<h4 class="SeeAlso">related topics</h4>
+<ul style="font-size: 10pt;">
+<li>
+<madcap:xref href="../../Imaging_Plates/Concepts/Manual_and_Automatic_Imaging_Modes.htm" style="font-size: 10pt;">Manual and Automatic Imaging Modes</madcap:xref>
+</li>
+<li>
+<madcap:xref href="Live_Image_SubMenu.htm" style="font-size: 10pt;">Live Image Sub-menu</madcap:xref>
+</li>
+<li>
+<madcap:xref href="../Plate_Setup_Menu/Defining_Default_Imaging_Settings.htm" target="_blank">Defining Default Imaging Settings</madcap:xref>
+</li>
+</ul>
+</body>
+</html>
