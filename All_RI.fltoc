@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Welcome to the ROCK IMAGER FT Help File"
+    MarkAsNew="false"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    Link="/Content/Introduction/Welcome_to_ROCK_IMAGER_FT_Help_File.htm"></TocEntry>
+  <TocEntry
+    Title="Hardware Overview"
+    Link="/Content/Hardware_Overview.htm" />
+  <TocEntry
+    Title="System Requirements"
+    MarkAsNew="false"
+    Link="/Content/Introduction/System_Requirements.htm"></TocEntry>
+  <TocEntry
+    Title="Best Practices"
+    Link="/Content/Introduction/Best_Practices.htm" />
+  <TocEntry
+    Title="Software Overview"
+    Link="/Content/RIFT_Software_Overview/Software_Overview.htm">
+    <TocEntry
+      Title="Plate Menu"
+      MarkAsNew="false"
+      Link="/Content/RIFT_Software_Overview/Plate_Menu.htm" />
+    <TocEntry
+      Title="Imager Menu"
+      Link="/Content/RIFT_Software_Overview/Imager_Menu/Imager_Menu.htm"
+      MarkAsNew="false">
+      <TocEntry
+        Title="Live Image Sub-menu"
+        MarkAsNew="false"
+        Link="/Content/RIFT_Software_Overview/Imager_Menu/Live_Image_SubMenu.htm">
+        <TocEntry
+          Title="Well Control Panel"
+          Link="/Content/RIFT_Software_Overview/Imager_Menu/Well_Control_Panel.htm" />
+        <TocEntry
+          Title="Optics and Camera Control Panel"
+          Link="/Content/RIFT_Software_Overview/Imager_Menu/Optics_and_Camera_Control_Panel.htm" />
+        <TocEntry
+          Title="Leveling Histogram"
+          Link="/Content/RIFT_Software_Overview/Imager_Menu/Leveling_Histogram.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="EFI Sub-menu"
+        Link="/Content/RIFT_Software_Overview/Imager_Menu/EFI_Sub-menu.htm" />
+      <TocEntry
+        Title="Drop Location Sub-menu"
+        Link="/Content/RIFT_Software_Overview/Imager_Menu/Drop_Location_Submenu.htm" />
+      <TocEntry
+        Title="Focus Graph Sub-menu"
+        Link="/Content/RIFT_Software_Overview/Imager_Menu/Focus_Graph.htm" />
+      <TocEntry
+        Title="Last Captured Sub-menu"
+        Link="/Content/RIFT_Software_Overview/Imager_Menu/Last_Captured_Submenu.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Status Bar"
+      Link="/Content/RIFT_Software_Overview/Status_Bar.htm" />
+    <TocEntry
+      Title="Schedule Menu"
+      Link="/Content/RIFT_Software_Overview/Schedule_Menu.htm" />
+    <TocEntry
+      Title="Temperature Menu"
+      Link="/Content/RIFT_Software_Overview/Temperature_menu.htm"></TocEntry>
+    <TocEntry
+      Title="Plate Setup Menu"
+      Link="/Content/RIFT_Software_Overview/Plate_Setup_Menu/Plate_Setup_Menu.htm">
+      <TocEntry
+        Title="About Plate Type Calibration"
+        Link="/Content/RIFT_Software_Overview/Plate_Setup_Menu/About_Plate_Type_Calibration.htm" />
+      <TocEntry
+        Title="Tuning Plates in ROCK IMAGER FT"
+        Link="/Content/RIFT_Software_Overview/Plate_Setup_Menu/Tuning_Plates_in_ROCK_IMAGER_FT.htm" />
+      <TocEntry
+        Title="Defining Default Imaging Settings"
+        Link="/Content/RIFT_Software_Overview/Plate_Setup_Menu/Defining_Default_Imaging_Settings.htm" />
+      <TocEntry
+        Title="Applying Image Masks"
+        Link="/Content/RIFT_Software_Overview/Plate_Setup_Menu/Applying_Image_Masks.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Tools Menu"
+      Link="/Content/RIFT_Software_Overview/Tools_Menu.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Imaging Plates"
+    Link="/Content/Imaging_Plates/Imaging_Plates.htm">
+    <TocEntry
+      Title="Concepts"
+      Link="/Content/Imaging_Plates/Concepts/Concepts.htm">
+      <TocEntry
+        Title="Manual and Automatic Imaging Modes"
+        Link="/Content/Imaging_Plates/Concepts/Manual_and_Automatic_Imaging_Modes.htm"
+        MarkAsNew="false"></TocEntry>
+      <TocEntry
+        Title="Visible Light Imaging"
+        Link="/Content/Visible_Light_Imaging.htm" />
+      <TocEntry
+        Title="UV Imaging (Optional)"
+        Link="/Content/Imaging_Plates/Concepts/UV_Imaging_(Optional).htm">
+        <TocEntry
+          Title="UV Absorption Imaging"
+          Link="/Content/Imaging_Plates/Concepts/UV_Absorption_Imaging.htm" />
+        <TocEntry
+          Title="UV Light Path"
+          Link="/Content/Imaging_Plates/Concepts/UV_light_Path.htm" />
+        <TocEntry
+          Title="UV Compatible Plates"
+          Link="/Content/Imaging_Plates/Concepts/UV_Compatible_Plates.htm" />
+        <TocEntry
+          Title="UV FAQs"
+          Link="/Content/Imaging_Plates/Concepts/UV_FAQs.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="ROCK IMAGER Processor (RIP)"
+        Link="/Content/Imaging_Plates/Concepts/ROCK_IMAGER_Processor_(RIP).htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Tutorials"
+      Link="/Content/Imaging_Plates/Tutorials/Tutorials.htm">
+      <TocEntry
+        Title="Initiating an On-Demand Imaging Session"
+        Link="/Content/Imaging_Plates/Tutorials/Initiating_an_Imaging_Session.htm" />
+      <TocEntry
+        Title="Adding and Removing Plates"
+        Link="/Content/Imaging_Plates/Tutorials/Adding_and_Removing_Plates.htm" />
+      <TocEntry
+        Title="Viewing a Plate's Content"
+        Link="/Content/Imaging_Plates/Tutorials/Viewing_A_Plates_Content.htm" />
+      <TocEntry
+        Title="Searching for Plates"
+        Link="/Content/Imaging_Plates/Tutorials/Searching_for_Plates.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Administrative Task"
+    Link="/Content/Administrative_Tasks/Administrative_Tasks.htm">
+    <TocEntry
+      Title="Licensing"
+      Link="/Content/Administrative_Tasks/Licensing.htm" />
+    <TocEntry
+      Title="User Management"
+      Link="/Content/Administrative_Tasks/User_Management.htm" />
+  </TocEntry>
+</CatapultToc>
