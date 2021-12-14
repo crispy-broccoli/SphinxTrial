@@ -74,14 +74,15 @@ This is a snippet of my favorite song:
 
 
 
-.. flat-table:: table title (optional)
+.. flat-table:: table title
    :header-rows: 2
    :stub-columns: 1
    :widths: 1 1 1 1 2
+   :fill-cells:
    
-   * - :rspan:`1` item
-     - :cspan:`3` Actions
-  
+
+   * - :rspan:`1` head / stub
+     - :cspan:`3` head 1.1-4
 
    * - head 2.1
      - head 2.2
@@ -91,8 +92,10 @@ This is a snippet of my favorite song:
    * .. row body 1 / this is a comment
 
      - row 1
-     - ...
-    
+     - :rspan:`2` cell 1-3.1
+     - cell 1.2
+     - cell 1.3
+     - cell 1.4
 
    * .. Comments and targets are allowed on *table-row* stage.
      .. _`row body 2`:
@@ -115,13 +118,16 @@ This is a snippet of my favorite song:
      - cell 4.4
 
    * - row 5
-     - row 5.1
-     - ...
+     - cell 5.1 with automatic span to rigth end
 
    * - row 6
      - cell 6.1
      - ..
 
+
+       
+   
+   
 
 
 Open `ROCK MAKER <http://help.formulatrix.com/rock-maker/3.17>`_
@@ -145,3 +151,16 @@ Open `ROCK MAKER <http://help.formulatrix.com/rock-maker/3.17>`_
      -
        * Windows Server Edition
        * Windows 10
+     
+   * - ...
+     - :rspan:`1` ...
+     - ...
+    
+   * - ...
+     - ...
+
+
+.. collapse:: Temperature menu
+
+  This is a content for temperature menu
+
