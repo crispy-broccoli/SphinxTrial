@@ -120,9 +120,7 @@ This is a snippet of my favorite song:
    * - row 5
      - cell 5.1 with automatic span to rigth end
 
-   * - row 6
-     - cell 6.1
-     - ..
+   
 
 
        
