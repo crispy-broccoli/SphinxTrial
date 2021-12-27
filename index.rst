@@ -19,6 +19,7 @@ Welcome to the help file for the ROCK IMAGER FT (Flexible Temperature) 260, an a
    /Content/Imaging_Plates
    /Content/Administrative_Tasks
    /Content/training
+   /Content/new_file
 
 .. toctree::
    :caption: Advanced
